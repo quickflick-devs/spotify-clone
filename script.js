@@ -1,13 +1,14 @@
+function logToConsologToConsoleDiv{
+        const consoleDiv = document.getElementById('console');
+        consoleDiv.innerHTML += `<p>${message}</p>`;
+    }
+
 document.addEventListener('DOMContentLoaded', function() {
     const artistsSection = document.getElementById('artists');
     const albumsSection = document.getElementById('albums');
     const audioPlayer = document.getElementById('audioPlayer');
-    const currentSongDiv = document.getElementById('currentSong')
-            function logToConsologToConsoleDiv{
-        const consoleDiv = document.getElementById('console');
-        consoleDiv.innerHTML += `<p>${message}</p>`;
-    }
-    const toggleButton = document.getElementById('toggleConsole');
+    const currentSongDiv = document.getElementById('currentSong');
+                const toggleButton = document.getElementById('toggleConsole');
     toggleButton.addEventListener('click', () => {
         if (consoleDiv.style.display === 'none' || consoleDiv.style.display === '') {
             consoleDiv.style.display = 'block';
