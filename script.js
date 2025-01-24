@@ -7,6 +7,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const consoleDiv = document.getElementById('console');
         consoleDiv.innerHTML += `<p>${message}</p>`;
     }
+    const toggleButton = document.getElementById('toggleConsole');
+    toggleButton.addEventListener('click', () => {
+        if (consoleDiv.style.display === 'none' || consoleDiv.style.display === '') {
+            consoleDiv.style.display = 'block';
+            toggleButton.textContent = 'Hide Console';
+        } else {
+            consoleDiv.style.display = 'none';
+            toggleButton.textContent = 'Show Console';
+        }
+    });
+
 ;
 
     fetch('artists.json')
