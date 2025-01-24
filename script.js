@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${artist.name}</h3>
                     <button onclick="playSong('${artist.songs[0].url}', '${artist.name} - ${artist.songs[0].title}')">Play</button>
                 `;
-                artistsSection.appendChild(artistDiv);
+                
+            logToConsole(`Added artist: ${artist.name}`);artistsSection.appendChild(artistDiv);
             });
 
             data.albums.forEach(album => {
@@ -33,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 albumsSection.appendChild(albumDiv);
             });
+            logToConsole(`Added album: ${album.title}`);
         });
 
     window.playSong = function(songUrl, songTitle) {
