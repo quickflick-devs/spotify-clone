@@ -3,12 +3,36 @@
         {
             "name": "Artist 1",
             "image": "https://via.placeholder.com/150",
-            "song": "https://example.com/song1.mp3"
+            "songs": [
+                {"title": "Song 1", "url": "https://example.com/song1.mp3"},
+                {"title": "Song 2", "url": "https://example.com/song2.mp3"}
+            ]
         },
         {
             "name": "Artist 2",
             "image": "https://via.placeholder.com/150",
-            "song": "https://example.com/song2.mp3"
+            "songs": [
+                {"title": "Song 3", "url": "https://example.com/song3.mp3"},
+                {"title": "Song 4", "url": "https://example.com/song4.mp3"}
+            ]
+        }
+    ],
+    "albums": [
+        {
+            "title": "Album 1",
+            "image": "https://via.placeholder.com/150",
+            "songs": [
+                {"title": "Album Song 1", "url": "https://example.com/albumsong1.mp3"},
+                {"title": "Album Song 2", "url": "https://example.com/albumsong2.mp3"}
+            ]
+        },
+        {
+            "title": "Album 2",
+            "image": "https://via.placeholder.com/150",
+            "songs": [
+                {"title": "Album Song 3", "url": "https://example.com/albumsong3.mp3"},
+                {"title": "Album Song 4", "url": "https://example.com/albumsong4.mp3"}
+            ]
         }
     ]
 }
