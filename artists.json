@@ -1,0 +1,14 @@
+{
+    "artists": [
+        {
+            "name": "Artist 1",
+            "image": "https://via.placeholder.com/150",
+            "song": "https://example.com/song1.mp3"
+        },
+        {
+            "name": "Artist 2",
+            "image": "https://via.placeholder.com/150",
+            "song": "https://example.com/song2.mp3"
+        }
+    ]
+}
