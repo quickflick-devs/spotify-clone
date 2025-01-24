@@ -7,12 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Spotify Clone</h1>
-    </header>
-    <main>
-        <section id="artists">
+    <div class="sidebar">
+        <h2>Spotify Clone</h2>
+        <nav>
+            <a href="#">Your Library</a>
+            <a href="#">Create Playlist</a>
+            <a href="#">Find Podcasts</a>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <input type="text" placeholder="Search..." id="searchBar">
+        </header>
+        <section class="grid" id="artists">
+            <h2>Popular Artists</h2>
             <!-- Artists will be loaded here -->
+        </section>
+        <section class="grid" id="albums">
+            <h2>Popular Albums and Singles</h2>
+            <!-- Albums will be loaded here -->
         </section>
         <section id="player">
             <h2>Now Playing</h2>
@@ -23,7 +36,7 @@
                 Your browser does not support the audio element.
             </audio>
         </section>
-    </main>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
