@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const albumsSection = document.getElementById('albums');
     const audioPlayer = document.getElementById('audioPlayer');
     const currentSongDiv = document.getElementById('currentSong')
-            function logToConsoleDiv(message) {
+            function logToConsologToConsoleDiv{
         const consoleDiv = document.getElementById('console');
         consoleDiv.innerHTML += `<p>${message}</p>`;
     }
