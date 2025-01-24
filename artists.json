@@ -2,36 +2,36 @@
     "artists": [
         {
             "name": "Artist 1",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://videocreationmedia.blob.core.windows.net/quickflick/avatars/female2.png
             "songs": [
-                {"title": "Song 1", "url": "https://example.com/song1.mp3"},
-                {"title": "Song 2", "url": "https://example.com/song2.mp3"}
+                {"title": "Song 1", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"},
+                {"title": "Song 2", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"}
             ]
         },
         {
             "name": "Artist 2",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://videocreationmedia.blob.core.windows.net/quickflick/avatars/male3.png
             "songs": [
-                {"title": "Song 3", "url": "https://example.com/song3.mp3"},
-                {"title": "Song 4", "url": "https://example.com/song4.mp3"}
+                {"title": "Song 3", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"},
+                {"title": "Song 4", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"}
             ]
         }
     ],
     "albums": [
         {
             "title": "Album 1",
-            "image": "https://via.placeholder.com/150",
+            "image": "httphttps://videocreationmedia.blob.core.windows.net/quickflick/avatars/female4.png
             "songs": [
-                {"title": "Album Song 1", "url": "https://example.com/albumsong1.mp3"},
-                {"title": "Album Song 2", "url": "https://example.com/albumsong2.mp3"}
+                {"title": "Album Song 1", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"},
+                {"title": "Album Song 2", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"}
             ]
         },
         {
             "title": "Album 2",
-            "image": "https://via.placeholder.com/150",
+            "image": "httphttps://videocreationmedia.blob.core.windows.net/quickflick/avatars/male5.png
             "songs": [
-                {"title": "Album Song 3", "url": "https://example.com/albumsong3.mp3"},
-                {"title": "Album Song 4", "url": "https://example.com/albumsong4.mp3"}
+                {"title": "Album Song 3", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"},
+                {"title": "Album Song 4", "url": "https://cdn.soundstripe.com/uploads/audio_file/37010/mp3_ghostbeatz_valencia_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738274543_247a35473c065fb22caf06bf6b22d31004910f5477a97af6ed63e5223d75e73ce.com/song1.mp3"}
             ]
         }
     ]
