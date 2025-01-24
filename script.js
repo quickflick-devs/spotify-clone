@@ -2,7 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const artistsSection = document.getElementById('artists');
     const albumsSection = document.getElementById('albums');
     const audioPlayer = document.getElementById('audioPlayer');
-    const currentSongDiv = document.getElementById('currentSong');
+    const currentSongDiv = document.getElementById('currentSong')
+            function logToConsoleDiv(message) {
+        const consoleDiv = document.getElementById('console');
+        consoleDiv.innerHTML += `<p>${message}</p>`;
+    }
+;
 
     fetch('artists.json')
         .then(response => response.json())
