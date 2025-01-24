@@ -1,4 +1,4 @@
-function logToConsole(message){
+function logToCologToConsoleDiv
         const consoleDiv = document.getElementById('console');
         consoleDiv.innerHTML += `<p>${message}</p>`;
     }
