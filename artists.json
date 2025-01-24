@@ -28,7 +28,7 @@
         },
         {
             "title": "Album 2",
-            "image": "https://videocreationmedia.blob.core.windows.net/quickflick/avatars/male5.png",
+            "image": "https://videocreationmedia.blob.core.windows.net/quickflick/avatars/male2.png",
             "songs": [
                 {"title": "Album Song 3", "url": "https://cdn.soundstripe.com/uploads/audio_file/25816/mp3_the-great-barrier-reef_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738348235_5ed4f35112226e71fc77cec2d26cc731d0b5e44a7d9f67746a4edbc437280d0b"},
                 {"title": "Album Song 4", "url": "https://cdn.soundstripe.com/uploads/audio_file/25816/mp3_the-great-barrier-reef_full.mp3?key=ae82893b-3533-42d0-a574-cbab1e0a9a3e&token=1738348235_5ed4f35112226e71fc77cec2d26cc731d0b5e44a7d9f67746a4edbc437280d0b"}
