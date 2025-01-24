@@ -2,35 +2,75 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #282828;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #1DB954;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #b3b3b3;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidebar nav a:hover {
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
 }
 
 header {
-    background-color: #1DB954;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-#artists {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.artist {
-    background-color: white;
-    border-radius: 8px;
+header input {
+    width: 100%;
     padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.artist, .album {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artist img, .album img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 #player {
-    background-color: white;
-    margin: 20px;
+    margin-top: 20px;
+    background-color: #333;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#currentSong {
+    margin-bottom: 10px;
 }
