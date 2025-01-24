@@ -49,7 +49,22 @@ header input {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
+    gap:
+        
+.artist:hover .play-btn {
+    display: inline-block;
+}
+
+.play-btn {
+    display: none;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+20px;
 }
 
 .artist, .album {
@@ -61,6 +76,7 @@ header input {
 
 .artist img, .album img {
     width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -72,7 +88,40 @@ header input {
     /* Spotify-like theme styles */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #121212;
+    background-colo
+        
+#player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #282828;
+}
+
+#player .play-btn {
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#player .progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background-color: #404040;
+    margin: 0 10px;
+    border-radius: 2.5px;
+}
+
+#player .progress-bar div {
+    height: 100%;
+    width: 50%; /* For demo purposes */
+    background-color: #1db954;
+    border-radius: 2.5px;
+}
+r: #121212;
     color: #fff;
     margin: 0;
     padding: 0;
